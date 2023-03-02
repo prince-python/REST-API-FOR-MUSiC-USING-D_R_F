@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-db0fxgrno38ll9fct55bh9le_3)xs5c5+gvca)o(1d6jzf5!b0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*","rest-api-for-music-using-drf-production.up.railway.app"]
 
 
 # Application definition
